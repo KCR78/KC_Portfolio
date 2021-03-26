@@ -1,0 +1,155 @@
+.contactpage {
+    background-color: rgb(0, 0, 128);
+    color: greenyellow;
+    background-image: url('../../assets/images/back0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.user-details {
+    padding-top: 5%;
+    font-size: 1em;
+}
+
+.cont-data a {
+    color: #4ed4f5;
+}
+
+.resume-btn {
+    font-family: 'DM Serif Text', serif;
+    color: #4ed4f5;
+    min-width: 120px;
+    margin-top: 5%;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 2px solid #4ed4f5;
+}
+
+.resume-btn:hover {
+    background-color: #4ed4f5;
+    color: #000000;
+}
+
+.floating-label {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.floating-input {
+    font-size: 1.5em;
+    width: 100%;
+    height: 50px;
+    padding-left: 9px;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.floating-textarea {
+    font-size: 1.5em;
+    width: 100%;
+    min-height: 145px;
+    font-size: 1.5em;
+    padding: 10px 10px 0;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.floating-input:focus,
+.floating-textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #4ed4f5;
+}
+
+
+/*------Label Input-----*/
+
+.input-label {
+    font-family: 'DM Serif Text', serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 8px;
+    transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+}
+
+.floating-textarea:focus~label,
+.floating-input:focus~label {
+    /* top: -20px; */
+    font-size: 1.5em;
+    color: greenyellow;
+}
+
+.floating-textarea:not(:placeholder-shown)~label,
+.floating-input:not(:placeholder-shown)~label {
+    top: -20px;
+    font-size: 1em;
+    color: #4ed4f5;
+}
+
+.send-btn {
+    float: right;
+    min-width: 120px;
+    background-color: #4ed4f5;
+    border-radius: 0;
+    color: #000000;
+}
+
+.err-msg {
+    font-family: 'Sansita', sans-serif;
+    font-size: 1em;
+    color: #4ed4f5;
+    text-align: right;
+    margin-top: -20px;
+    margin-bottom: 28px;
+}
+
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.loading img {
+    width: 5%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 426px) {
+    .send-btn {
+        float: none;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .head-name {
+        font-size: 6vw;
+    }
+    .cursive {
+        font-size: 1em;
+    }
+    .loading img {
+        width: 10%;
+    }
+}

@@ -1,0 +1,33 @@
+.proj{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 2% 3% 2% 3%;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    transition:  height 0.5s;
+    overflow: hidden;
+    box-shadow: 1px 20px 20px lightgrey;
+}
+
+.p-logo{
+    width: 250px;
+}
+
+.p-title{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.2em;
+    color: rgb(0, 0, 128);
+    font-weight: bold;
+}
+
+.p-desc{
+    font-family: 'DM Serif Text', serif;
+    font-weight: 600;
+    text-align: justify;
+    color: #000000;
+}
+
+.proj:hover{
+    height: 430px;
+}
