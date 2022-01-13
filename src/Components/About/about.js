@@ -12,6 +12,8 @@ import js from '../../assets/images/js.png';
 import bt from '../../assets/images/bt.png';
 import react from '../../assets/images/react.png';
 import vue from '../../assets/images/vue.png';
+import nodejs from '../../assets/images/nodejs.png';
+import mongodb from '../../assets/images/mongodb.png';
 import addon from '../../assets/images/addon.png';
 import msvs from '../../assets/images/msvs.png';
 import flask from '../../assets/images/flask.png';
@@ -93,8 +95,8 @@ class About extends Component {
                                         <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={300} animateOnce={true}><img src={bt} className='skillicons' alt='BOOTSTRAP' title='BOOTSTRAP' /></ScrollAnimation></li>
                                         <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={400} animateOnce={true}><img src={react} className='skillicons' alt='RAECT JS' title='RAECT JS' /></ScrollAnimation></li>
                                         <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={500} animateOnce={true}><img src={vue} className='skillicons' alt='VUE JS' title='VUE JS' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={600} animateOnce={true}><img src={vue} className='skillicons' alt='NODE JS' title='NODE JS' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={700} animateOnce={true}><img src={vue} className='skillicons' alt='MONGO DB' title='MONGO DB' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={600} animateOnce={true}><img src={nodejs} className='skillicons' alt='NODE JS' title='NODE JS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={700} animateOnce={true}><img src={mongodb} className='skillicons' alt='MONGO DB' title='MONGO DB' /></ScrollAnimation></li>
                                     </ul>
                                 </div>
 
@@ -146,7 +148,7 @@ class About extends Component {
 
                             <hr />
 
-                            <div className='other col-12 mb-2'>
+                            <div className='other col-12 row mb-2'>
                                 <div className='col-12'>
                                     <ScrollAnimation animateIn='fadeIn' duration={1} animateOnce={true}>
                                         <h4 className='headings'>OTHER INTERESTS</h4>
@@ -154,7 +156,9 @@ class About extends Component {
                                 </div>
 
                                 <div className='col-sm-6 col-12'>
-                                    <ScrollAnimation animateIn='fadeIn' duration={1} animateOnce={true}><li className="list-unstyled"><i className="fad fa-angle-double-right arrow"></i> Photoshop</li></ScrollAnimation>
+                                    <ul className='ml-4 cursive'>
+                                        <ScrollAnimation animateIn='fadeIn' duration={1} animateOnce={true}><li className="list-unstyled"><i className="fad fa-angle-double-right arrow"></i> Photoshop</li></ScrollAnimation>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
