@@ -33,15 +33,15 @@
 .soft{
     color:#000000;
 }
-.techs, .softs{
+.techs, .softs, .other{
     font-size: 20px;
     margin-bottom: 0;
     margin-left: 20px;
 }
 
 .skillicons{
-    width: 150px;
-    margin: 25px;
+    width: 90px;
+    margin: 15px;
 }
 
 .skillicons:hover{
@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 426px) {
+    body{
+        font-size: 0.8rem;
+    }
     .headings{
         font-size: 6vw;
     }
@@ -65,7 +68,7 @@
         border-right: none;
     }
     .skillicons{
-        width: 80px;
+        width: 60px;
         margin: 10px;
     }
 }

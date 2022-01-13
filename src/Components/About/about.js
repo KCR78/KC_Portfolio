@@ -67,7 +67,7 @@ class About extends Component {
                             </ul>
                         </div>
 
-                        <div className='skills row col-12 mt-3'>
+                        <div className='skills col-12 mt-3'>
                             <div className='technical col-12 mb-2'>
                                 <ScrollAnimation animateIn='fadeIn' duration={1} animateOnce={true}>
                                     <h4 className='headings'>TECHNICAL SKILLS</h4>
@@ -77,8 +77,8 @@ class About extends Component {
                                         <p className='techs'><img src={lang} width='20' className='mb-1 mr-1' alt='' /> Language</p>
                                     </ScrollAnimation>
                                     <ul className='mb-5'>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} animateOnce={true}><img src={c} className='skillicons' alt='C' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={100} animateOnce={true}><img src={cpp} className='skillicons' alt='C++' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} animateOnce={true}><img src={c} className='skillicons' alt='C' title='C' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={100} animateOnce={true}><img src={cpp} className='skillicons' alt='C++' title='C++' /></ScrollAnimation></li>
                                     </ul>
                                 </div>
 
@@ -87,12 +87,14 @@ class About extends Component {
                                         <p className='techs'><img src={web} width='20' className='mb-1 mr-1' alt='' /> Web Development (Specialization)</p>
                                     </ScrollAnimation>
                                     <ul className='mb-5'>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} animateOnce={true}><img src={html} className='skillicons' alt='HTML' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={100} animateOnce={true}><img src={css} className='skillicons' alt='CSS' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={200} animateOnce={true}><img src={js} className='skillicons' alt='JAVA SCRIPT' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={300} animateOnce={true}><img src={bt} className='skillicons' alt='BOOTSTRAP' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={400} animateOnce={true}><img src={react} className='skillicons' alt='RAECT JS' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={500} animateOnce={true}><img src={vue} className='skillicons' alt='VUE JS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} animateOnce={true}><img src={html} className='skillicons' alt='HTML' title='HTML' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={100} animateOnce={true}><img src={css} className='skillicons' alt='CSS' title='CSS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={200} animateOnce={true}><img src={js} className='skillicons' alt='JAVA SCRIPT' title='JAVA SCRIPT' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={300} animateOnce={true}><img src={bt} className='skillicons' alt='BOOTSTRAP' title='BOOTSTRAP' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={400} animateOnce={true}><img src={react} className='skillicons' alt='RAECT JS' title='RAECT JS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={500} animateOnce={true}><img src={vue} className='skillicons' alt='VUE JS' title='VUE JS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={600} animateOnce={true}><img src={vue} className='skillicons' alt='NODE JS' title='NODE JS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={700} animateOnce={true}><img src={vue} className='skillicons' alt='MONGO DB' title='MONGO DB' /></ScrollAnimation></li>
                                     </ul>
                                 </div>
 
@@ -101,15 +103,16 @@ class About extends Component {
                                         <p className='techs'><img src={addon} width='20' className='mb-1 mr-1' alt='' /> Add_On</p>
                                     </ScrollAnimation>
                                     <ul className='mb-5'>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} animateOnce={true}><img src={msvs} className='skillicons mr-4' alt='MICROSOFT VISUAL STUDIO' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={100} animateOnce={true}><img src={flask} className='skillicons mr-4' alt='FLASK' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={200} animateOnce={true}><img src={sql} className='skillicons mr-4' alt='SQL' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} animateOnce={true}><img src={msvs} className='skillicons mr-4' alt='MICROSOFT VISUAL STUDIO' title='MICROSOFT VISUAL STUDIO' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={100} animateOnce={true}><img src={flask} className='skillicons mr-4' alt='FLASK' title='FLASK' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={200} animateOnce={true}><img src={sql} className='skillicons mr-4' alt='SQL' title='SQL' /></ScrollAnimation></li>
                                     </ul>
                                 </div>
-                                <hr />
                             </div>
 
-                            <div className='soft col-12 row'>
+                            <hr />
+
+                            <div className='soft col-12 row mb-2'>
                                 <div className='col-12'>
                                     <ScrollAnimation animateIn='fadeIn' duration={1} animateOnce={true}>
                                         <h4 className='headings'>SOFT SKILLS</h4>
@@ -138,6 +141,20 @@ class About extends Component {
                                         <ScrollAnimation animateIn='fadeIn' duration={1} delay={100} animateOnce={true}><li className="list-unstyled"><i className="fad fa-angle-double-right arrow"></i> Social Networking</li></ScrollAnimation>
                                         <ScrollAnimation animateIn='fadeIn' duration={1} delay={200} animateOnce={true}><li className="list-unstyled"><i className="fad fa-angle-double-right arrow"></i> Surfing the Internet</li></ScrollAnimation>
                                     </ul>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <div className='other col-12 mb-2'>
+                                <div className='col-12'>
+                                    <ScrollAnimation animateIn='fadeIn' duration={1} animateOnce={true}>
+                                        <h4 className='headings'>OTHER INTERESTS</h4>
+                                    </ScrollAnimation>
+                                </div>
+
+                                <div className='col-sm-6 col-12'>
+                                    <ScrollAnimation animateIn='fadeIn' duration={1} animateOnce={true}><li className="list-unstyled"><i className="fad fa-angle-double-right arrow"></i> Photoshop</li></ScrollAnimation>
                                 </div>
                             </div>
                         </div>

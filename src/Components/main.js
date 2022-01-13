@@ -7,7 +7,6 @@ import Contact from './Contact/contact';
 import Education from './Work_Education/education';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Clock from 'react-live-clock';
-import { FadeTransform } from 'react-animation-components';
 
 class Main extends Component {
 
@@ -15,19 +14,12 @@ class Main extends Component {
         return (
             <div>
                 <div className='jumbotron' id='jumbotron'>
-                    <FadeTransform
-                        in
-                        delay={500}
-                        duration={1000}
-                        transformProps={{
-                            exitTransform: 'translateY(-20px)'
-                        }}>
-                        <label className='dnt'>
-                            <Clock format={'ddd | Do MMM | YYYY | h:mm:ss A'} />
-                        </label>
-                    </FadeTransform>
-                    <div className='name-plate'>
 
+                    <label className='dnt'>
+                        <Clock format={'ddd | Do MMM | YYYY | h:mm:ss A'} />
+                    </label>
+
+                    <div className='name-plate'>
                         <label className='p-name'>
                             <ScrollAnimation animateIn='backInDown' duration={2} animateOnce={true}>
                                 <span className='text-trans'>K</span>
@@ -54,7 +46,7 @@ class Main extends Component {
                         </label><br />
 
                         <ScrollAnimation animateIn='backInLeft' duration={2} delay={100} animateOnce={true}>
-                            <label className='p-designation'>Front-End Web Developer</label><br />
+                            <label className='p-designation'>Web Developer</label><br />
                         </ScrollAnimation>
 
                         <ScrollAnimation animateIn='backInUp' duration={2} delay={200} animateOnce={true}>
@@ -86,7 +78,7 @@ class Main extends Component {
                     </nav>
                 </div>
 
-                <div className='navigation container mt-3'>
+                {/* <div className='navigation container mt-3'>
                     <div className='row justify-content-around'>
 
                         <div className='nav-box col-4'>
@@ -120,7 +112,7 @@ class Main extends Component {
                         </div>
 
                     </div>
-                </div>
+                </div> */}
 
                 <div className='about-details navdown' id='about-details'>
                     <About />
@@ -157,7 +149,7 @@ class Main extends Component {
                             <i className="social-icons fab fa-github"></i>
                         </a>
 
-                        <p className="copyright">Copyright &#9400; 2021 &nbsp;|&nbsp; <a href='#jumbotron' className='kcp'> KC - Portfolio </a> &nbsp;|&nbsp; All Rights Reserved.</p>
+                        <p className="copyright">Copyright &#9400; 2022 &nbsp;|&nbsp; <a href='#jumbotron' className='kcp'> KC - Portfolio </a> &nbsp;|&nbsp; All Rights Reserved.</p>
                     </div>
                 </div>
 
