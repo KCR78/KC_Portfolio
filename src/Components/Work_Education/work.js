@@ -14,7 +14,7 @@ const Work = () => {
 
         const yrs = Math.floor(months / 12);
         const mnts = Math.floor(months % 12);
-        const duration = months > 0 ? (yrs > 0 ? `${yrs} year${yrs > 1 ? 's' : ''}` : '') + `${mnts} month${mnts > 1 ? 's' : ''}` : '';
+        const duration = months > 0 ? (yrs > 0 ? `${yrs} year${yrs > 1 ? 's' : ''}` : '') + ` ${mnts > 0 ? `${mnts} month${mnts > 1 ? 's' : ''}` : ``}` : '';
         return duration;
     };
 
