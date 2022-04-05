@@ -29,10 +29,10 @@ const Work = () => {
                             <div className="content">
                                 <h3 className='year'>2021</h3>
                                 <div className="work-data">
-                                    <h4>SOFTWARE ENGINEER TRAINEE</h4>
+                                    <h4>SOFTWARE ENGINEER</h4>
                                     <a href='https://www.visnet.in/' target='_blank' rel="noopener noreferrer"> <img src={vis} className='logos' alt='VIS Networks Pvt. Ltd.' title='VIS Networks Pvt. Ltd.' /> </a>
                                     <p className='mt-3'>
-                                        {/* <span className='work-designation'>SOFTWARE ENGINEER TRAINEE</span> <br/> */}
+                                        {/* <span className='work-designation'>SOFTWARE ENGINEER</span> <br/> */}
                                         VIS Networks Pvt. Ltd. <br />
                                         Bhubaneswar, India
                                     </p>
