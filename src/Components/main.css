@@ -20,7 +20,7 @@ body{
     /* font-family: 'Red Rose', cursive; */
 
     /* color: #ffffff; */
-    background-image: url('../assets/images/back10.jpg');
+    /* background-image: url('../assets/images/back10.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -166,7 +166,7 @@ body{
 .box-desc:hover{
     box-shadow: 1px 20px 20px lightgrey;
     color: yellow;
-    -webkit-text-stroke: 1px#000000;
+    -webkit-text-stroke: 1px #000000;
     transition: transform 1s;
     transform: scale(1.1);
 }
@@ -191,16 +191,17 @@ a:hover{
     background-image: url('../assets/images/contact.jpg');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
 .hrline {
-    font-family: 'Vast Shadow', cursive;
+    font-family: 'Tapestry', cursive;
     position: sticky;
     top: 56px;
     z-index: 1;
     font-size: 1.5em;
     height: 50px;
-    background-color: rgb(0, 0, 128);
-    background: -webkit-linear-gradient(left, rgb(0, 0, 128) 30%, transparent 100%);
-    /* -webkit-mask-image: linear-gradient(to right,#000000 30%, transparent 100%); */
+    background-color: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(left, rgb(0, 0, 0) 30%, transparent 100%);
     color: #ffffff;
     padding-top: 10px;
     padding-left: 5% ;
@@ -209,7 +210,7 @@ a:hover{
 
 .footer{
     height: 150px;
-    background-color: rgb(0, 0, 128);
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
 }
 
@@ -222,7 +223,7 @@ a:hover{
 .social-icons:hover{
     transform: scale(1.8);
 	text-shadow: 2px 2px 10px #ffffff;
-	color: greenyellow;
+	color: #4ed4f5;
 }
 
 
@@ -233,7 +234,25 @@ a:hover{
 .kcp:hover{
     font-size: 1.1em;
     text-shadow: 2px 2px 10px #ffffff;
-	color: greenyellow;
+	color: #4ed4f5;
+}
+
+.resume-btn {
+    font-size: 14px;
+    color: #000;
+    min-width: 120px;
+    margin-top: 5%;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 2px solid #000;
+    box-shadow: none !important;
+}
+
+.resume-btn:hover {
+    background-color: #beecf8;
+    color: #000000;
+    font-weight: 600;
+    box-shadow: 1px 10px 10px lightgrey !important;
 }
 
 
@@ -260,7 +279,7 @@ a:hover{
     }
 
     .hrline{
-        background: -webkit-linear-gradient(left, rgb(0, 0, 128) 40%, transparent 100%);
+        background: -webkit-linear-gradient(left, rgb(0, 0, 0) 40%, transparent 100%);
         font-size: 6vw;
     }
 }

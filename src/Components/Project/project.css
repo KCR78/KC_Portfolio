@@ -29,5 +29,11 @@
 }
 
 .proj:hover{
-    height: 430px;
+    height: 470px;
+}
+
+@media screen and (max-width: 600px) {
+    .proj {
+      margin-bottom: 30px;
+    }
 }

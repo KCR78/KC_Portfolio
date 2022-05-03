@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './contact.css'
-import resume from '../../assets/Krushna Chandra Rout.pdf'
 import loadingGif from '../../assets/images/loading.gif'
 import * as emailjs from 'emailjs-com';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -150,15 +149,6 @@ class Contact extends Component {
                                 </ScrollAnimation>
 
                             </ul>
-
-                            <a href={resume} target='_blank' rel="noopener noreferrer">
-                                <ScrollAnimation animateIn='slideInDown' duration={1} delay={500} animateOnce={true}>
-                                    <button type="button" className="btn resume-btn">
-                                        RESUME
-                                    </button>
-                                </ScrollAnimation>
-                            </a>
-
                         </div>
 
                         <div className='col-12 col-sm-6 contact-form pt-5'>
@@ -219,12 +209,10 @@ class Contact extends Component {
                         </div>
                     </div>
 
-                    {
-                        loading ? (
-                            <div className='loading'>
-                                <img src={loadingGif} alt='loading' />
-                            </div>
-                        ) : null
+                    {loading &&
+                        <div className='loading'>
+                            <img src={loadingGif} alt='loading' />
+                        </div>
                     }
 
                 </div>

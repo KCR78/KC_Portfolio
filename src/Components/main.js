@@ -7,6 +7,7 @@ import Contact from './Contact/contact';
 import Education from './Work_Education/education';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Clock from 'react-live-clock';
+import resume from '../assets/Krushna Chandra Rout.pdf'
 
 class Main extends Component {
 
@@ -52,6 +53,15 @@ class Main extends Component {
                         <ScrollAnimation animateIn='backInUp' duration={2} delay={200} animateOnce={true}>
                             <label className='p-location'><i className='fas fa-map-marker-alt'></i> Bhubaneswar, Odisha</label>
                         </ScrollAnimation>
+
+                        <ScrollAnimation animateIn='slideInLeft' duration={1} delay={1000} animateOnce={true}>
+                            <a href={resume} target='_blank' rel="noopener noreferrer">
+                                <button type="button" className="btn resume-btn">
+                                    Download CV
+                                </button>
+                            </a>
+                        </ScrollAnimation>
+
                     </div>
 
                     <ScrollAnimation animateIn='fadeIn' duration={2} delay={4000} animateOnce={true}>

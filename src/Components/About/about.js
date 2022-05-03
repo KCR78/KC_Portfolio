@@ -11,7 +11,7 @@ import css from '../../assets/images/css.png';
 import js from '../../assets/images/js.png';
 import bt from '../../assets/images/bt.png';
 import react from '../../assets/images/react.png';
-import vue from '../../assets/images/vue.png';
+import next from '../../assets/images/next.png';
 import nodejs from '../../assets/images/nodejs.png';
 import mongodb from '../../assets/images/mongodb.png';
 import addon from '../../assets/images/addon.png';
@@ -38,7 +38,7 @@ class About extends Component {
                         <div className='col-sm-8 col-12'>
                             <ScrollAnimation animateIn='fadeIn' duration={2} animateOnce={true}>
                                 <p className='summery text-justify mb-5 cursive'>
-                                    Seeking a suitable and rewarding career, with an esteemed Organization, this would over good advancement potential, challenges and opportunities to zoom my career growth, contributing to the success of organization. I am hardworking and very enthusiastic in nature. I like to experience new things and always come up with innovative ideas. As a Computer Science student I am interested in web developing and a little bit fluent in React JS Framework and want to become a Full-Stack Web Developer. I am looking forward to a competitive environment to develop my skills to learn much more new features about this field to get new opportunities in an organization for the growth of my career.
+                                    Seeking a suitable and rewarding career, with an esteemed Organization, this would offer good advancement potential, challenges and opportunities to zoom my career growth, contributing to the success of organization. I am hardworking and very enthusiastic in nature. I like to experience new things and always come up with innovative ideas. I am interested in web development. I am looking forward to a competitive environment to develop my skills to learn many more new features about this field to get new opportunities in an organization for the growth of my career.
                                 </p>
                             </ScrollAnimation>
                         </div>
@@ -89,14 +89,14 @@ class About extends Component {
                                         <p className='techs'><img src={web} width='20' className='mb-1 mr-1' alt='' /> Web Development (Specialization)</p>
                                     </ScrollAnimation>
                                     <ul className='mb-5'>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} animateOnce={true}><img src={html} className='skillicons' alt='HTML' title='HTML' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={100} animateOnce={true}><img src={css} className='skillicons' alt='CSS' title='CSS' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={200} animateOnce={true}><img src={js} className='skillicons' alt='JAVA SCRIPT' title='JAVA SCRIPT' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={300} animateOnce={true}><img src={bt} className='skillicons' alt='BOOTSTRAP' title='BOOTSTRAP' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={400} animateOnce={true}><img src={react} className='skillicons' alt='RAECT JS' title='RAECT JS' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={500} animateOnce={true}><img src={vue} className='skillicons' alt='VUE JS' title='VUE JS' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={600} animateOnce={true}><img src={nodejs} className='skillicons' alt='NODE JS' title='NODE JS' /></ScrollAnimation></li>
-                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={700} animateOnce={true}><img src={mongodb} className='skillicons' alt='MONGO DB' title='MONGO DB' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} animateOnce={true}><img src={react} className='skillicons' alt='RAECT JS' title='RAECT JS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={100} animateOnce={true}><img src={next} className='skillicons' alt='NEXT JS' title='NEXT JS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={200} animateOnce={true}><img src={nodejs} className='skillicons' alt='NODE JS' title='NODE JS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={300} animateOnce={true}><img src={mongodb} className='skillicons' alt='MONGO DB' title='MONGO DB' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={400} animateOnce={true}><img src={bt} className='skillicons' alt='BOOTSTRAP' title='BOOTSTRAP' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={500} animateOnce={true}><img src={html} className='skillicons' alt='HTML' title='HTML' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={600} animateOnce={true}><img src={css} className='skillicons' alt='CSS' title='CSS' /></ScrollAnimation></li>
+                                        <li className="list-inline-item"><ScrollAnimation animateIn='zoomIn' duration={1} delay={700} animateOnce={true}><img src={js} className='skillicons' alt='JAVA SCRIPT' title='JAVA SCRIPT' /></ScrollAnimation></li>
                                     </ul>
                                 </div>
 
@@ -140,8 +140,6 @@ class About extends Component {
                                     </ScrollAnimation>
                                     <ul className='ml-4 cursive'>
                                         <ScrollAnimation animateIn='fadeIn' duration={1} animateOnce={true}><li className="list-unstyled"><i className="fad fa-angle-double-right arrow"></i> Gaming</li></ScrollAnimation>
-                                        <ScrollAnimation animateIn='fadeIn' duration={1} delay={100} animateOnce={true}><li className="list-unstyled"><i className="fad fa-angle-double-right arrow"></i> Social Networking</li></ScrollAnimation>
-                                        <ScrollAnimation animateIn='fadeIn' duration={1} delay={200} animateOnce={true}><li className="list-unstyled"><i className="fad fa-angle-double-right arrow"></i> Surfing the Internet</li></ScrollAnimation>
                                     </ul>
                                 </div>
                             </div>

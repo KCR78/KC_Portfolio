@@ -37,7 +37,7 @@ const Work = () => {
                                         Bhubaneswar, India
                                     </p>
                                     <p className='mt-3 text-justify'>
-                                        I have worked mostly in REST API integration, developing dynamic web applications and fixing multimedia plugins too.
+                                        I am working in this organization as a MERN Stack developer.
                                     </p>
                                     <p>DURATION : MAR 2021 - <span className="live">WORKING</span>
                                         <span className='ml-3 time-duration'>{timeDuration(new Date('2021-03'), new Date())}</span>
