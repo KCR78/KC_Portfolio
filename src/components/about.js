@@ -9,7 +9,7 @@ const About = () => {
                         <div className="col-lg-12 col-md-12">
                             <div className="row">
                                 <div className="col-lg-2">
-                                    <h2><i className="bi bi-dash-lg me-2"></i>Myself</h2>
+                                    <h2><i className="bi bi-dash-lg me-2"></i>About Me</h2>
                                 </div>
                                 <div className="col-lg-10 about-contents">
                                     <p className="text-white-50 text-md">Hello! I am a <span className='text-white'>MERN Stack Developer.</span> I'm looking forward to a competitive environment to develop my skills and learn

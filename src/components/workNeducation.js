@@ -10,7 +10,7 @@ const WorkNEducation = (props) => {
 
     const eduList = [
         { name: 'Master in Computer Application (M.C.A)', institution: 'Pondicherry University', instPlace: 'Pondicherry', type: 'Post Graduation', durtStart: '2017', durtEnd: '2020', instLink: 'https://www.pondiuni.edu.in/', instImg: 'pu.png' },
-        { name: 'B.Sc Computer Science Honours (+3)', institution: 'B.J.B Autonomous College', instPlace: 'Bhubaneswar, Odisha', type: 'Under Graduation', durtStart: '2014', durtEnd: '2017', instLink: 'http://www.bjbcollege.in/', instImg: 'bjb.png' },
+        { name: 'B.Sc Computer Science Honours (+3)', institution: 'B.J.B Autonomous College', instPlace: 'Bhubaneswar, Odisha', type: 'Graduation', durtStart: '2014', durtEnd: '2017', instLink: 'http://www.bjbcollege.in/', instImg: 'bjb.png' },
         { name: 'Intermediate (+2)', institution: 'Rajdhani College', instPlace: 'Bhubaneswar, Odisha', type: 'CHSE', durtStart: '2011', durtEnd: '2013', instLink: 'https://www.rajdhanicollege.ac.in/', instImg: 'rajdhani.png' },
         { name: 'Matriculation (10TH)', institution: 'Sri Aurobindo Integral Education Centre, Jharapada', instPlace: 'Bhubaneswar, Odisha', type: 'BSE', durtStart: '', durtEnd: '2011', instLink: 'https://www.facebook.com/saiecjharpada/', instImg: 'aurobindo.png' },
     ]
