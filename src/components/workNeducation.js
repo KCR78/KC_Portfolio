@@ -41,7 +41,7 @@ const WorkNEducation = (props) => {
                         </div>
                     </div>
 
-                    <div className="row no-gutters">
+                    <div className="row justify-content-center">
                         {workList.map((item, index) =>
                             <section className="col-lg-6 col-xl-4 d-flex mb-4" data-aos="fade-in" data-aos-delay={index * 100} key={index}>
                                 <div className="card p-5 rounded-0 align-self-stretch">
