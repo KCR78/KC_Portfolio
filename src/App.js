@@ -1,14 +1,9 @@
-// import logo from './logo.svg';
-import './App.css';
 import kcImg from './assets/img/kc-pic.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import cv from './assets/Krushna Chandra Rout.pdf'
 import './assets/css/style.css';
-import './assets/css/animate.css';
-import './assets/css/slick.css';
-import './assets/css/slick-theme.css';
 import 'aos/dist/aos.css';
 
 import AOS from 'aos';
@@ -127,28 +122,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-// import './assets/css/bootstrap.min.css';
-// import './assets/css/themify-icons.css';
-// import './assets/css/animate.css';
-// import './assets/css/aos.css';
-// import './assets/css/owl.carousel.min.css';
-// import './assets/css/owl.theme.default.min.css"';
-// import './assets/css/slick.css';
-// import './assets/css/slick-theme.css';
-
-
-// import './assets/js/bootstrap.min.js';
-// import './assets/js/jquery.min.js';
-// import './assets/js/popper.js';
-// import './assets/js/jquery.easing.1.3.js';
-// import './assets/js/slick.min.js';
-// import './assets/js/owl.carousel.min.js';
-// import './assets/js/apear.js';
-// import './assets/js/counTo.js';
-// import './assets/js/aos.js';
-// import './assets/js/script.js';
-// import './assets/js/ajax-contact.js';
