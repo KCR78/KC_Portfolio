@@ -51,7 +51,7 @@ const WorkNEducation = (props) => {
                                                 <a href={item.orgLink} target='_blank' rel="noopener noreferrer"><img src={`/img/${item.orgLogo}`} alt={item.orgName} /></a>
                                             </div>
                                         </div>
-                                        <div className='col-9 ps-3 ps-sm-0 d-flex align-items-center'>{item.orgName}</div>
+                                        <div className='col-9 ps-md-0 ps-lg-2 d-flex align-items-center'>{item.orgName}</div>
                                         <h3 className="col-12 my-2 text-capitalize">{item.designation}</h3>
                                         <h4 className="col-12 m-0 text-capitalize">{item.type}</h4>
                                         <p className='col-12'>{item.desc}</p>
@@ -100,7 +100,7 @@ const WorkNEducation = (props) => {
                                                 <a href={item.instLink} target='_blank' rel="noopener noreferrer"><img src={`/img/${item.instImg}`} alt={item.institution} /></a>
                                             </div>
                                         </div>
-                                        <div className='col-9 ps-3 ps-sm-0 d-flex align-items-center'>{item.institution}<br />{item.instPlace}</div>
+                                        <div className='col-9 ps-md-0 ps-lg-2 d-flex align-items-center'>{item.institution}<br />{item.instPlace}</div>
                                         <h3 className="col-12 my-2 text-capitalize">{item.name}</h3>
                                         <p className='col-12'>{item.type}</p>
                                         <p className='col-12'>

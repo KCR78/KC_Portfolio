@@ -42,7 +42,7 @@ const Skill = () => {
                     </div>
 
 
-                    <div className='col-lg-8'>
+                    <div className='col-lg-10'>
                         <div className='row'>
 
                             {skills.map((skillItem, skillIndex) =>

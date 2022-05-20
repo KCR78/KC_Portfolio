@@ -8,10 +8,10 @@ const About = () => {
                     <div className="row">
                         <div className="col-lg-12 col-md-12">
                             <div className="row">
-                                <div className="col-lg-2">
+                                <div className="col-lg-3">
                                     <h2><i className="bi bi-dash-lg me-2"></i>About Me</h2>
                                 </div>
-                                <div className="col-lg-10 about-contents">
+                                <div className="col-lg-9 about-contents">
                                     <p className="text-white-50 text-md">Hello! I am a <span className='text-white'>MERN Stack Developer.</span> I'm looking forward to a competitive environment to develop my skills and learn
                                         many more new features about this field to get new opportunities in an organization
                                         to grow my career.</p>
@@ -27,17 +27,16 @@ const About = () => {
                     </div>
                 </div>
             </section>
-
             <section className="section" id="about-skill" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 mt-5 mt-lg-0 mt-md-0 col-md-6">
+                        <div className="mt-5 col-md-12 mt-lg-0 mt-md-0">
                             <div className="row">
-                                <div className="col-lg-5">
+                                <div className="col-lg-3">
                                     <h2><i className="bi bi-dash-lg me-2"></i>Personalities</h2>
                                 </div>
-                                <div className="col-lg-7 pl-5">
-                                    <ul className="list-unstyled lh-45">
+                                <div className="col-lg-7 pl-9">
+                                    <ul className="list-unstyled lh-45 ms-md-3 ms-lg-0">
                                         <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Hard working ability in any conditions and situations</span></li>
                                         <li><i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Positive in thoughts and actions</span></li>
                                         <li><i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Discipline, Responsible, and Competent</span></li>
@@ -46,15 +45,17 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-
-                        <div className="col-lg-6 mt-5 mt-lg-0 mt-md-0 col-md-6">
+                        <br /><br /><br /><br /><br /><br /><br /><br />
+                        <div className="mt-5 col-md-12 mt-lg-0 mt-md-0">
                             <div className="row">
-                                <div className="col-lg-4">
+                                <div className="col-lg-3">
                                     <h2><i className="bi bi-dash-lg me-2"></i>Hobbies</h2>
                                 </div>
-                                <div className="col-lg-7 pl-8">
-                                    <ul className="list-unstyled lh-45">
+                                <div className="col-lg-9 pl-8">
+                                    <ul className="list-unstyled lh-45 ms-md-3 ms-lg-0">
                                         <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Gamming</span></li>
+                                        <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Photography</span></li>
+                                        <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Travelling</span></li>
                                     </ul>
                                 </div>
                             </div>
