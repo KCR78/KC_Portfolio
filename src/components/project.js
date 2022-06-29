@@ -4,7 +4,7 @@ const Project = () => {
 
     const projectList = [
         { name: 'Blood Donation Website', desc: 'Its a Full-Stack responsive Website by Using HTML 5, CSS 3, Java Script, Bootstrap 4, Python Flask Framework, My SQL, XAMPP Server.', img: 'bdlogo.png', link: 'https://github.com/KCR78/Blood-Donation' },
-        { name: 'Outcasts Community', desc: 'It is a dynamic web application and its contents are controlled by the admin panel. The main website contains both static and dynamic contents. Technology: React, NextJS, NodeJS, MongoDB.', img: 'oc.png', link: 'https://outcastscommunity.com/' }
+        { name: 'Outcasts Community', desc: 'It is a dynamic web application and its contents are controlled by the admin panel. The main website contains both static and dynamic contents. Razorpay Payment Gateway was Integrated for booking tickets. Technology: React, NextJS, NodeJS, MongoDB.', img: 'oc.png', link: 'https://outcastscommunity.com/' }
     ]
 
     return (
