@@ -53,7 +53,7 @@ const About = () => {
                                 </div>
                                 <div className="col-lg-9 pl-8">
                                     <ul className="list-unstyled lh-45 ms-md-3 ms-lg-0">
-                                        <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Gamming</span></li>
+                                        <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Gaming</span></li>
                                         <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Photography</span></li>
                                         <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Travelling</span></li>
                                     </ul>
