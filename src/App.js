@@ -110,7 +110,7 @@ function App() {
               </ul>
             </div>
             <div className="col-lg-5">
-              <p className="lead"><span className="text-color">KC - Portfolio</span> © {new Date().getFullYear()} All Right Reserved.</p>
+              <p className="lead"><span className="text-color">KC - Portfolio</span> © {new Date().getFullYear()}</p>
               {/* <a href="#top" className="backtop smoth-scroll"><i className="bi bi-chevron-up"></i></a> */}
             </div>
           </div>

@@ -37,10 +37,10 @@ const About = () => {
                                 </div>
                                 <div className="col-lg-7 pl-9">
                                     <ul className="list-unstyled lh-45 ms-md-3 ms-lg-0">
-                                        <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Hard working ability in any conditions and situations</span></li>
-                                        <li><i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Positive in thoughts and actions</span></li>
-                                        <li><i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Discipline, Responsible, and Competent</span></li>
-                                        <li><i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Leadership Skills</span></li>
+                                        <li> <i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Hard working ability in any conditions and situations.</span></li>
+                                        <li><i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Positive in thoughts and actions.</span></li>
+                                        <li><i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Discipline, Responsible, and Competent.</span></li>
+                                        <li><i className="bi bi-chevron-double-right me-3 text-color"></i><span className="text-white-50">Leadership Skills.</span></li>
                                     </ul>
                                 </div>
                             </div>
