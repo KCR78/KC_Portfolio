@@ -12,13 +12,13 @@ const Skill = () => {
         {
             data: [
                 { name: 'React', value: '90' },
-                { name: 'NextJS', value: '80' },
-                { name: 'NodeJS', value: '60' },
-                { name: 'MongoDB', value: '50' },
+                { name: 'NextJS', value: '85' },
+                { name: 'NodeJS', value: '80' },
+                { name: 'MongoDB', value: '80' },
                 { name: 'Bootstrap', value: '85' },
                 { name: 'HTML', value: '95' },
                 { name: 'CSS', value: '85' },
-                { name: 'Java Script', value: '80' }
+                { name: 'Java Script', value: '90' }
             ]
         },
         {

@@ -12,16 +12,13 @@ const About = () => {
                                     <h2><i className="bi bi-dash-lg me-2"></i>About Me</h2>
                                 </div>
                                 <div className="col-lg-9 about-contents">
-                                    <p className="text-white-50 text-md">Hello! I am a <span className='text-white'>MERN Stack Developer.</span> I'm looking forward to a competitive environment to develop my skills and learn
-                                        many more new features about this field to get new opportunities in an organization
-                                        to grow my career.</p>
-                                    <p className="text-white-50 text-md">Seeking a suitable and rewarding career with an esteemed Organization would
-                                        offer good advancement potential, challenges, and opportunities to zoom my career
-                                        growth, contributing to the organization's success. I am hardworking and very
-                                        enthusiastic in nature. I like to experience new things and always come up with
-                                        innovative ideas.</p>
+                                    <p className="text-white-50 text-md">Hello! I am a <span className='text-white'>MERN Stack Developer.</span> I am seeking a rewarding career with an esteemed organization that offers opportunities for
+                                        advancement, challenges, and significant career growth</p>
+                                    <p className="text-white-50 text-md">As a hardworking and enthusiastic individual, I
+                                        thrive on experiencing new things and generating innovative ideas. With a keen interest in web
+                                        development, I look forward to working in a competitive environment where I can develop my skills, learn
+                                        new features, and contribute to the organization's success while advancing my career.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>

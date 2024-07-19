@@ -61,7 +61,7 @@ function App() {
             <div className="col-lg-6 col-12 col-md-7">
               <div className="ms-5 position-relative mt-5 mt-lg-0">
                 {/* <span className="head-trans">Chandra Rout</span> */}
-                <h1 className="font-weight-normal text-color sub-text-lg"><i className="bi bi-dash-lg me-2"></i>Web Developer</h1>
+                <h1 className="font-weight-normal text-color sub-text-lg"><i className="bi bi-dash-lg me-2"></i>Software Engineer</h1>
                 <h2 className="my-2 my-sm-3 text-lg text-capitalize">Krushna Chandra Rout</h2>
                 <p className="animated fadeInUp lead mt-4 mb-5 text-white-50 lh-35">Bhubaneswar, Odisha</p>
                 <a href={cv} className="btn btn-solid-border" target='_blank' rel="noopener noreferrer">Download CV</a>
