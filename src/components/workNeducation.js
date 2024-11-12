@@ -4,8 +4,16 @@ import React from 'react';
 const WorkNEducation = (props) => {
 
     const workList = [
-        { designation: 'Software Engineer', orgName: 'VIS Networks Pvt. Ltd.', workPlace: 'Bhubaneswar, Odisha', desc: 'I am working in this organization as a MERN Stack developer.', durtStart: '2021-03', durtEnd: '', orgLogo: 'vis.png', orgLink: 'https://www.visnet.in/' },
-        { designation: 'Front-End Developer', type: 'Internship', orgName: 'Plexoware Technology Pvt. Ltd.', workPlace: 'Puducherry, India', desc: 'In this internship I worked on a Real Estate Web Application and a dashboard project in React JS.', durtStart: '2020-01', durtEnd: '2020-06', orgLogo: 'plex.png', orgLink: 'http://www.plexoware.com/' }
+        {
+            designation: 'Software Engineer', orgName: 'VIS Networks Pvt. Ltd.', workPlace: 'Bhubaneswar, Odisha',
+            desc: 'As a MERN Stack Developer, I have acquired substantial expertise through my work at a product- based company, leveraging technologies like ReactJS, Next.js, Node.js, MongoDB, MySQL, Firebase, Amazon Web Services, and Google Cloud Services.',
+            durtStart: '2021-03', durtEnd: '2024-10', orgLogo: 'vis.png', orgLink: 'https://www.visnet.in/'
+        },
+        {
+            designation: 'Front-End Developer', type: 'Internship', orgName: 'Plexoware Technology Pvt. Ltd.', workPlace: 'Puducherry, India',
+            desc: 'During my internship, I developed a real estate web application using React JS.',
+            durtStart: '2020-01', durtEnd: '2020-06', orgLogo: 'plex.png', orgLink: 'http://www.plexoware.com/'
+        }
     ];
 
     const eduList = [
