@@ -291,6 +291,7 @@ a:focus {
 #service .card {
   transition: all .35s ease;
   background: var(--theme-card-background);
+  color: #fff;
 }
 
 #service .card h3 {

@@ -11,21 +11,19 @@ const Skill = () => {
         },
         {
             data: [
-                { name: 'React', value: '90' },
+                { name: 'ReactJS', value: '90' },
                 { name: 'NextJS', value: '85' },
                 { name: 'NodeJS', value: '80' },
                 { name: 'MongoDB', value: '80' },
-                { name: 'Bootstrap', value: '85' },
-                { name: 'HTML', value: '95' },
-                { name: 'CSS', value: '85' },
-                { name: 'Java Script', value: '90' }
+                { name: 'MySQL', value: '60' }
             ]
         },
         {
             data: [
-                { name: 'Microsoft Visual Studio', value: '50' },
-                { name: 'Python Flask', value: '40' },
-                { name: 'MySQL', value: '60' }
+                { name: 'HTML', value: '95' },
+                { name: 'CSS', value: '85' },
+                { name: 'Java Script', value: '90' },
+                { name: 'Bootstrap', value: '85' },
             ]
         }
     ];
@@ -40,7 +38,6 @@ const Skill = () => {
                             <h2 className="title">Expertise</h2>
                         </div>
                     </div>
-
 
                     <div className='col-lg-10'>
                         <div className='row'>
@@ -64,6 +61,6 @@ const Skill = () => {
             </div>
         </section>
     );
-}
+};
 
 export default Skill;
