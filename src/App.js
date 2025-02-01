@@ -1,19 +1,21 @@
-import kcImg from './assets/img/kc-pic.jpg'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import cv from './assets/Krushna Chandra Rout.pdf'
-import './assets/css/style.css';
-import 'aos/dist/aos.css';
-
-import AOS from 'aos';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import About from './components/about';
 import Skill from './components/skills';
 import WorkNEducation from './components/workNeducation';
 import Project from './components/project';
 import Contact from './components/contact';
+import AOS from 'aos';
+
+import kcImg from './assets/img/kc-pic.jpg'
+import cv from './assets/Krushna Chandra Rout.pdf'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import './assets/css/style.css';
+import 'aos/dist/aos.css';
 import 'loaders.css'
+
 
 function App() {
 
@@ -61,7 +63,7 @@ function App() {
             <div className="col-lg-6 col-12 col-md-7">
               <div className="ms-5 position-relative mt-5 mt-lg-0">
                 {/* <span className="head-trans">Chandra Rout</span> */}
-                <h1 className="font-weight-normal text-color sub-text-lg"><i className="bi bi-dash-lg me-2"></i>Software Engineer</h1>
+                <h1 className="font-weight-normal text-color sub-text-lg"><i className="bi bi-dash-lg me-2"></i>System Engineer</h1>
                 <h2 className="my-2 my-sm-3 text-lg text-capitalize">Krushna Chandra Rout</h2>
                 <p className="animated fadeInUp lead mt-4 mb-5 text-white-50 lh-35">Bhubaneswar, Odisha</p>
                 <a href={cv} className="btn btn-solid-border" target='_blank' rel="noopener noreferrer">Download CV</a>
@@ -106,7 +108,8 @@ function App() {
                 <li className="list-inline-item"><a href="https://www.linkedin.com/in/krushna-chandra-rout-5b119b162/" target='_blank' rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a></li>
                 <li className="list-inline-item"><a href="https://github.com/KCR78" target='_blank' rel="noopener noreferrer"><i className="bi bi-github"></i></a></li>
                 <li className="list-inline-item"><a href="https://www.facebook.com/krushnachandra.rout.9" target='_blank' rel="noopener noreferrer"><i className="bi bi-facebook"></i></a></li>
-                <li className="list-inline-item"><a href="https://twitter.com/krishnarout17" target='_blank' rel="noopener noreferrer"><i className="bi bi-twitter"></i></a></li>
+                {/* <li className="list-inline-item"><a href="https://twitter.com/krishnarout17" target='_blank' rel="noopener noreferrer"><i className="bi bi-twitter"></i></a></li> */}
+                <li className="list-inline-item"><a href="https://x.com/krishnarout17" target='_blank' rel="noopener noreferrer"><i className="bi bi-twitter-x"></i></a></li>
               </ul>
             </div>
             <div className="col-lg-5">

@@ -5,6 +5,11 @@ const WorkNEducation = (props) => {
 
     const workList = [
         {
+            designation: 'System Engineer', orgName: 'Tata Consultancy Services', workPlace: 'Bhubaneswar, Odisha',
+            desc: 'Will be updated soon...',
+            durtStart: '2025-01', durtEnd: '', orgLogo: 'tcs.png', orgLink: 'https://www.tcs.com/'
+        },
+        {
             designation: 'Software Engineer', orgName: 'VIS Networks Pvt. Ltd.', workPlace: 'Bhubaneswar, Odisha',
             desc: 'As a MERN Stack Developer, I have acquired substantial expertise through my work at a product- based company, leveraging technologies like ReactJS, Next.js, Node.js, MongoDB, MySQL, Firebase, Amazon Web Services, and Google Cloud Services.',
             durtStart: '2021-03', durtEnd: '2024-10', orgLogo: 'vis.png', orgLink: 'https://www.visnet.in/'
